@@ -16,7 +16,7 @@ html {
 /*BARRA DE NAVEGACION*/
 
 .head-bar{
-    background-color: #fbf9f9;
+    background-color: #FCDD5A;
     width: 100%;
     height: 7.5rem;
     position: fixed;
@@ -32,11 +32,11 @@ html {
 
 .nada{
     text-decoration: none;
-    color: #44a4e1;
+    color: #0454A2;
 }
 
 .nada:hover{
-    background-color: #006daa;
+    background-color: #DDE9F3;
     transition: background-color 0.5s;
     border-radius: 5%;
     padding: 4px;
@@ -61,7 +61,7 @@ html {
     flex-direction: column;
     justify-content: center;
     background-color: #006daa;
-    background-image: linear-gradient(62deg, #8abfca8a 0%, #006daa 100%);
+    background-image: linear-gradient(62deg, #074A85 0%, #0454A2 100%);
     font-family: "Kanit";
 }
 
