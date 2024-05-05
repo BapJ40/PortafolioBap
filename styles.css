@@ -10,7 +10,6 @@
 
 html {
     font-size: 62.5%;
-    font-family: "Rubik Mono One";
 }
 
 /*BARRA DE NAVEGACION*/
@@ -23,7 +22,7 @@ html {
 }
 
 .navbar{
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: flex-end;
     text-align: center;
@@ -38,7 +37,7 @@ html {
 .nada:hover{
     background-color: #DDE9F3;
     transition: background-color 0.5s;
-    border-radius: 5%;
+    border-radius: 10%;
     padding: 4px;
 }
 
@@ -61,7 +60,7 @@ html {
     flex-direction: column;
     justify-content: center;
     background-color: #006daa;
-    background-image: linear-gradient(62deg, #074A85 0%, #0454A2 100%);
+    background-image: linear-gradient(#074A85 50%, #0454A2 100%);
     font-family: "Kanit";
 }
 
@@ -86,21 +85,23 @@ html {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     gap: 2rem;
-    background: linear-gradient(180deg, #1e2935 0%, #6096BA 100%);
+    background: linear-gradient(#0454A2 50%, #074A85 100%);
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: 2rem;
-    font-family: "Rubik Mono One";
+    font-family: "Kanit";
 }
 
-
-.projects-grid > h2{
+.fondo-amarillo{
     display: flex;
     justify-content: center;
     text-align: center;
-    color: white;
-    font-size: 4.5rem;
-    text-decoration: underline;
+    background-color: #FCDD5A;
+    font-size: 3rem;
+    color: #0454A2;
+    margin-top: 75px;
+    margin-left: -50px;
+    margin-right: -26.5px;
+
 }
 
 .contenedor-imagen {
@@ -116,12 +117,13 @@ html {
 }
 
 .project-tile{
-    font-size: 2.5rem;
-    background-color: #1282A2;
-    color: #FEFCFB;
+    font-size: 2rem;
+    background-color: #FCDD5A;
+    color: #0454A2;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 0;
+    font-family: "Rubik Mono One";
 }
 
 .nadaDos{
@@ -131,21 +133,25 @@ html {
 /*FIN DE PROYECTOS*/
 
 #contactame{
-    height: 30vh;
-    width: 100%;
-    flex: auto;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    flex-direction: column;
+    background-image: linear-gradient(#074A85 50%, #0454A2 100%);
+}
+
+.textTwo{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: #E7ECEF;
-    
-}
-
-#contactame>p{
-    font-size: 5rem;
-    color: #8B8C89;
-    text-decoration: underline;
-    padding: 1.5rem;
+    background-color: #FCDD5A;
+    font-size: 3rem;
+    color: #0454A2;
+    margin-top: 75px;
+    font-family: "Kanit";
 }
 
 .nametag{
@@ -167,20 +173,6 @@ html {
 .nametag:hover{
     color: #A3CEF1;
     transition: color 0.5s;
-}
-
-footer{
-    height: 5vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: #A3CEF1;
-}
-
-footer>p{
-    font-size: 3rem;
-    color: black;
 }
 
 @media(max-width){}
